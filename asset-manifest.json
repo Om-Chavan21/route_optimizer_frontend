@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/route_optimizer_frontend/static/css/main.e2b2d067.css",
+    "main.js": "/route_optimizer_frontend/static/js/main.52bb836e.js",
+    "index.html": "/route_optimizer_frontend/index.html",
+    "main.e2b2d067.css.map": "/route_optimizer_frontend/static/css/main.e2b2d067.css.map",
+    "main.52bb836e.js.map": "/route_optimizer_frontend/static/js/main.52bb836e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2b2d067.css",
+    "static/js/main.52bb836e.js"
+  ]
+}
