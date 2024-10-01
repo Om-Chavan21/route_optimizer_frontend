@@ -41,13 +41,16 @@ const App = () => {
     e.preventDefault();
     setLoading(true); // Set loading to true when starting optimization
 
-    const response = await fetch("http://localhost:5000/optimize_route", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ locations: links }),
-    });
+    const response = await fetch(
+      "https://route-optimizer-backend.onrender.com/optimize_route",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ locations: links }),
+      }
+    );
 
     const data = await response.json();
 
